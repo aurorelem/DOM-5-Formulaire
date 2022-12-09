@@ -1,12 +1,12 @@
-let input = document.getElementById("firstname")
-let span = document.getElementById("display-firstname")
+const input = document.getElementById("firstname")
+const span = document.getElementById("display-firstname")
 
 input.addEventListener('keyup', () =>{
     span.textContent = input.value
 })
 
-let age = document.getElementById("age")
-let truth = document.getElementById("a-hard-truth")
+const age = document.getElementById("age")
+const truth = document.getElementById("a-hard-truth")
 
 age.addEventListener('keyup', () =>{
    if(age.value<18){
@@ -22,7 +22,7 @@ age.addEventListener('keyup', () =>{
 
 
 const pwd = document.getElementById("pwd")
-const pwd = document.getElementById("pwd-confirm")
+const pwd2 = document.getElementById("pwd-confirm")
 
 pwd.addEventListener('keyup', () =>{
     if(pwd.value.lenght<6){

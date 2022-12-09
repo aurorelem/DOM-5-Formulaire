@@ -1,4 +1,3 @@
-
 let input = document.getElementById("firstname")
 let span = document.getElementById("display-firstname")
 
@@ -19,4 +18,18 @@ age.addEventListener('keyup', () =>{
   /* if(age.value >= 18) {
         truth.setAttribute("style", "visibility: visible")
    }*/
+})
+
+
+const pwd = document.getElementById("pwd")
+const pwd = document.getElementById("pwd-confirm")
+
+pwd.addEventListener('keyup', () =>{
+    if(pwd.value.lenght<6){
+        pwd.style.backgroundColor = "red"
+    }
+
+    else{
+        pwd.style.backgroundColor = "green"
+    }
 })
